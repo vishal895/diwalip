@@ -1,0 +1,144 @@
+.hero{
+    background-image: url("../image/bg.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 104px;
+    
+}
+.plc{
+    margin-bottom: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+    
+}
+.lc{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.text{
+    margin-bottom: 286px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 75px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+
+}
+
+
+
+
+.card_portion{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items:center;
+    padding: 60px 0px 90px 0px;
+    column-gap: 90px;
+    
+}
+
+.slider{
+    padding: 10px 0px 100px 0px;
+}
+
+.heading{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    
+    }
+    .par{
+        margin-bottom: 53px;
+        margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    
+    }
+    .sld{
+        display: flex;
+        justify-content: center;
+        column-gap: 58px;
+    }
+      
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .card_portion{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .text{
+        font-size:20px;
+    }
+    .plc{
+        margin-bottom: 20px;
+        width: 35%;
+        height: 45%;
+    
+        
+    }
+     .heading{
+        font-size:25px;
+     }
+    
+     .par{
+        font-size:13px;
+
+    } 
+    .hero{
+        
+            background-image: url("../image/bg.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: inline-block;
+            padding-top: 45px;
+            height:370px;
+        
+    }
+}
+
+@media screen and (max-width:450px) {
+    
+    .text{
+        font-size:15px;
+    }
+    
+    .plc{
+        margin-bottom: -20px;
+        width: 45%;
+        height: 35%;
+    
+    }
+    .hero {
+        padding-top: 50px;
+        height: 180px;
+    }  
+}
+
